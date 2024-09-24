@@ -1,8 +1,8 @@
-# Personal Portfolio
+# CognoRise InfoTech - Personal Portfolio
 
 ## Description
 
-This is my personal portfolio website, showcasing my skills and projects as a developer. The site highlights my experience in web development, including Front-end Development, WordPress Development, and Java Application Development. The portfolio is built using HTML, CSS, and JavaScript, featuring responsive design and a modern layout.
+This is my personal portfolio website, showcasing my skills and projects as a developer. The site highlights my experience in web development, including Front-end Development, WordPress Development, and Java Application Development. The portfolio is built using HTML, CSS, and JavaScript, featuring a modern layout.
 
 ## Features
 
