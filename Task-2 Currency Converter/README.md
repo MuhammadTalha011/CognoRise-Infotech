@@ -1,4 +1,4 @@
-# Currency Converter Web Application
+# Cognorise-Infotech Currency Converter Web Application
 
 ## Description
 
@@ -52,12 +52,6 @@ To set up the currency converter web app locally, follow these steps:
 
 The app fetches live exchange rates from the ExchangeRate API. The conversion is based on the latest rates available for the selected currencies.
 
-```javascript
-async function getExchangeRate(fromCurrency, toCurrency) {
-    const response = await fetch(`${apiURL}${fromCurrency}`);
-    const data = await response.json();
-    return data.rates[toCurrency];
-}
 ## License
 
 This project is licensed under the MIT License.
