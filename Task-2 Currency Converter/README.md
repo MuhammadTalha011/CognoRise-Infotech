@@ -1,4 +1,4 @@
-# Cognorise-Infotech Currency Converter Web Application
+# Cognorise Infotech - Currency Converter
 
 ## Description
 
