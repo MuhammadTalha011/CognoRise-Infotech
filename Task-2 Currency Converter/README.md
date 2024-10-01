@@ -1,4 +1,4 @@
-# Cognorise Infotech - Currency Converter
+# CognoRise InfoTech - Currency Converter
 
 ## Description
 
@@ -10,7 +10,6 @@ This is a responsive currency converter web application that allows users to con
 - **Responsive Design**: Fully responsive layout using CSS Flexbox and Grid for a seamless experience on any device.
 - **Interactive UI**: User-friendly form to input amounts, select currencies, and display conversion results.
 - **Reset Option**: Easily reset the form to make new conversions.
-- **Secure Platform**: Ensures data privacy and provides a secure environment for currency conversions.
 
 ## Installation
 
