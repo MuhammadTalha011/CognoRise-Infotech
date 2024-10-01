@@ -58,4 +58,10 @@ async function getExchangeRate(fromCurrency, toCurrency) {
     const data = await response.json();
     return data.rates[toCurrency];
 }
+## License
 
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries or issues, please contact [mt7340131@gmail.com](mailto:mt7340131@gmail.com).
