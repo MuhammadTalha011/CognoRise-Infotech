@@ -18,7 +18,7 @@ To set up the currency converter web app locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/currency-converter.git
+    git clone https://github.com/MuhammadTalha011/currency-converter.git
     ```
 
 2. Navigate to the project directory:
