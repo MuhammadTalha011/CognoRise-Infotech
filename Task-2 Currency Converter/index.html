@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1>Fast and Reliable Currency Converter</h1>
+      <p>Get real-time exchange rates and convert between different currencies instantly.</p>
+      <a href="#converter" class="cta-btn">Start Converting</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="features-container">
+      <div class="feature">
+        <i class="fas fa-globe-americas"></i>
+        <h3>Global Reach</h3>
+        <p>Convert currencies from anywhere in the world with live rates.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-sync"></i>
+        <h3>Real-Time Rates</h3>
+        <p>Always up-to-date exchange rates to ensure accurate conversions.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-lock"></i>
+        <h3>Secure & Fast</h3>
+        <p>Fast conversion with a secure platform that ensures data privacy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Currency Converter Section -->
+  <section id="converter" class="converter-section">
+    <div class="converter-container">
+      <h2>Currency Converter</h2>
+      
+      <div class="converter-form">
+        <!-- Amount input -->
+        <div class="form-group">
+          <label for="amount"><i class="fas fa-money-bill-wave"></i> Enter Amount:</label>
+          <input type="number" id="amount" placeholder="Enter amount" required>
+        </div>
+
+        <!-- From Currency -->
+        <div class="form-group">
+          <label for="fromCurrency"><i class="fas fa-arrow-down"></i> From:</label>
+          <select id="fromCurrency"></select>
+        </div>
+
+        <!-- To Currency -->
+        <div class="form-group">
+          <label for="toCurrency"><i class="fas fa-arrow-up"></i> To:</label>
+          <select id="toCurrency"></select>
+        </div>
+
+        <!-- Convert and Reset Buttons -->
+        <div class="button-group">
+          <button id="convertBtn" class="convert-btn">Convert <i class="fas fa-exchange-alt"></i></button>
+          <button id="resetBtn" class="reset-btn">Reset <i class="fas fa-redo-alt"></i></button>
+        </div>
+      </div>
+
+      <!-- Result Display -->
+      <div id="result">
+        <p id="convertedAmount"></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Currency Converter. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

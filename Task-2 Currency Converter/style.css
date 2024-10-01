@@ -1,0 +1,263 @@
+/* General Styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('hero-section\ image.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  animation: fadeIn 2s;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s;
+}
+
+.cta-btn {
+  background-color: #1DBF73;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  display: inline-block;
+  animation: riseUp 1s ease-out forwards; 
+  opacity: 0;
+}
+
+.cta-btn:hover {
+  background-color: #218838;
+}
+
+@keyframes riseUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Currency Converter Section */
+.converter-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.converter-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto; 
+}
+
+/* Form Group Styling */
+.converter-form {
+  display: grid;
+  gap: 15px;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.form-group label i {
+  margin-right: 8px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* Full width */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+/* Container for Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; 
+}
+
+/* Convert Button Styling */
+button.convert-btn {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; 
+  border: none;
+  border-radius: 25px;
+}
+
+button.convert-btn:hover {
+  background-color: #218838;
+}
+
+/* Reset Button Styling */
+button.reset-btn {
+  background-color: #dc3545; 
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; 
+  border: none;
+  border-radius: 25px;
+}
+
+button.reset-btn:hover {
+  background-color: #000; 
+}
+
+/* Features Section */
+.features-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  
+}
+
+.feature-box i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .converter-container {
+    max-width: 90%;
+  }
+
+  .cta-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .feature-box {
+    width: 45%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .converter-container {
+    max-width: 100%; 
+  }
+
+  .feature-box {
+    width: 100%; 
+  }
+}
+
+/* Adjust Button Group for Mobile */
+@media (max-width: 480px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
+
+
