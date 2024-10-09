@@ -11,24 +11,6 @@ This is a responsive currency converter web application that allows users to con
 - **Interactive UI**: User-friendly form to input amounts, select currencies, and display conversion results.
 - **Reset Option**: Easily reset the form to make new conversions.
 
-## Installation
-
-To set up the currency converter web app locally, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/MuhammadTalha011/currency-converter.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd currency-converter
-    ```
-
-3. Open the `index.html` file in your browser to view the application.
-
 ## Usage
 
 - Enter the amount you want to convert.
