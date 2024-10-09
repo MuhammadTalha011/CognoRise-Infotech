@@ -1,4 +1,4 @@
-# CognoRise InfoTech - To-Do List
+# CognoRise InfoTech - To Do List
 
 ## Description
 
@@ -11,24 +11,6 @@ This project is an **To-Do List** application that allows users to manage their 
 - **Task Filters**: Filter tasks to view all, completed, or pending tasks.
 - **Dynamic Task List**: Tasks are dynamically added and displayed.
 - **Task Reset**: Easily reset the task input fields.
-  
-## Installation
-
-To set up the To-Do List project locally, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone <https://github.com/MuhammadTalha011/todo-list>
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd <project-directory>
-    ```
-
-3. Open the `index.html` file in your browser to view the to-do list.
 
 ## Usage
 
@@ -43,16 +25,6 @@ To set up the To-Do List project locally, follow these steps:
 - **CSS3**: Styling, using Flexbox for a responsive layout.
 - **JavaScript**: To handle interactivity such as adding tasks, filtering, and resetting inputs.
 - **Google Fonts**: 'Roboto' font family for a clean and modern look.
-
-## Contributing
-
-If you wish to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (e.g., `git checkout -b feature-branch`).
-3. Make your changes and commit them (e.g., `git commit -m 'Added new feature'`).
-4. Push your changes to the branch (e.g., `git push origin feature-branch`).
-5. Open a pull request.
 
 ## License
 
