@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Form Section (Left) -->
+        <div class="form-container">
+            <h1>To-Do List</h1>
+            <input type="text" id="taskName" placeholder="Task Name" required>
+            <textarea id="taskDescription" placeholder="Task Description" required></textarea>
+            <input type="datetime-local" id="taskDate" required>
+
+            <!-- Priority Dropdown -->
+            <select id="taskPriority" required>
+                <option value="" disabled selected>Set Priority</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <div class="buttons">
+                <button id="addTaskBtn">Add Task</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+
+        <!-- Task List Section (Right) -->
+        <div id="taskList" class="task-list">
+            <h2>Tasks</h2>
+            <ul id="tasks">
+                <!-- Dynamic tasks will go here -->
+            </ul>
+            <div class="filter-container">
+                <button id="filterAll">All</button>
+                <button id="filterCompleted">Completed</button>
+                <button id="filterPending">Pending</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

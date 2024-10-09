@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('hero-image.jpeg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+
+/* Form Section */
+.form-container {
+    width: 45%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #28a745; /* Green border when focused */
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.5); /* Green shadow on focus */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#addTaskBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Hover Effects on Buttons */
+button:hover {
+    transform: translateY(-3px); /* Lift the button slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+#addTaskBtn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#resetBtn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Task List Section */
+.task-list {
+    width: 45%;
+}
+
+.task-list h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task Item */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+
+}
+
+/* Hover Effect for Task Items */
+.task-item:hover {
+    transform: scale(1.02); /* Slight scaling */
+    background-color: #e2e6ea; /* Light gray on hover */
+}
+
+.task-item span {
+    margin-right: 10px;
+}
+
+/* Filter Buttons */
+.filter-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter-container button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.filter-container button:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .form-container, .task-list {
+        width: 100%;
+    }
+
+    .task-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
