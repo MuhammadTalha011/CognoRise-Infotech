@@ -19,7 +19,7 @@ To set up the To-Do List project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone <https://github.com/username/enhanced-todo-list>
+    git clone <https://github.com/MuhammadTalha011/todo-list>
     ```
 
 2. Navigate to the project directory:
